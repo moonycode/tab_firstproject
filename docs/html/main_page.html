@@ -37,12 +37,14 @@
     .image-container img {
       flex: 1;
       margin-right: 10px;
+
+
     }
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid justify-content-end">
       <ul class="navbar-nav flex-row">
         <li class="nav-item">
@@ -64,42 +66,62 @@
     </div>
   </div>
 
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col">
-           <a href="https://www.youtube.com/watch?v=GBbHNUx3kvI" target="_blank">
-          <img class="img-fluid" src="../images/img1_video_banner.jpg" alt="Image 1" >
-        </a>
-      </div>
-      <div class="col">
-        <a href="#" target="_blank">
-        <img class="img-fluid" src="../images/img2_self_test.jpg" alt="Image 2" >
-        </a>
-      </div>
-      <div class="col">
-        <a href="#" target="_blank">
-        <img class="img-fluid" src="../images/img3_partner_matching.jpg" alt="Image 3" >
-        </a>
+
+  <div class="container mt-4 text-center">
+    <div>
+      🏥 치매 전문 센터 및 병원 찾기
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group mb-4">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn" style="background-color: rgba(221, 43, 43, 0.897);" type="button">Search</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer class="footer mt-auto py-3" style="background-color: rgb(235, 225, 235);">
- 
+
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <a href="https://www.youtube.com/watch?v=GBbHNUx3kvI" target="_blank">
+            <img class="img-fluid" src="../images/img1_video_banner.jpg" alt="치매 인식 개선 영상">
+          </a>
+        </div>
+
+
+        <div class="col">
+          <a href="./self_test.html" target="_blank">
+            <img class="img-fluid" src="../images/img2_self_test.jpg" alt="치매 자가 진단">
+          </a>
+        </div>
+        <div class="col">
+          <a href="./login_page.html" target="_blank">
+            <img class="img-fluid" src="../images/img3_partner_matching.jpg" alt="맞춤 파트너 매칭 서비스">
+          </a>
+        </div>
       </div>
+    </div>
+
+    <footer class="footer mt-auto py-3" style="background-color: rgb(235, 225, 235);">
+
       <div class="row">
         <div class="text-center">
           치매에 대해 궁금하세요?
         </div>
-        <div class="text-center">  
-        ☎ 치매상담콜센터 : 1899-9988 
+        <div class="text-center">
+          ☎ 치매상담콜센터 : 1899-9988
         </div>
       </div>
-    </div>
+  </div>
   </footer>
 
-  
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
